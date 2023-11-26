@@ -4,3 +4,10 @@ This repository conteins the implementation of the style transfer algorithm, whi
 
 # Limitations and possible improvements
 This particular model is limited with respect to the amount of training data used for training the model, thus increasing the amount and diversity of training data can further improve the results in terms of the content preservation while simultaneously copying the style of the artist. Another improvement can be using different artistic styles from different artists and creating a classification model based on different style features and thus adding another multi-output classification loss which would result in better style transformation methodology based on a particular style. Another possible improvement involves detecting the edges of the content images using canny edge detection algorithm and then preserving the edges by weighting the edges preservation. 
+
+# Dataset for style and content images can be accessed through the following links
+Artworks Dataset- https://www.kaggle.com/datasets/huynguyenphamnhat/artworks-dataset/
+Content Dataset- https://www.kaggle.com/datasets/duttadebadri/image-classification/
+
+# Setup to run
+The notebook will work directly in kaggle by uploading the above dataset and downloading the weights provided in the repo in .h5 format.
